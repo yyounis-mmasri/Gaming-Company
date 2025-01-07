@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:rgba(234, 242, 255, 255);
+    font-family: Arial;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 253, 253);
+    z-index: 1;
+    box-shadow: 20px 20px 50px 10px #f195f1 inset;
+}
+header img{
+    width: 30px;
+    margin-right: 20px;
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    margin-left: 70px;
+    display: flex;
+    align-items: center;
+}
+.container p{
+    font-size: 25px;
+    font-weight: bold;
+}
+nav {
+    display: flex;
+    margin-right: 90px;
+
+}
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    color: black;
+}
+.hovering:hover{
+    transform: scale(1.1);
+    transition-duration: 700ms;
+
+
+}
+.selected_page{
+    color:purple;
+}
+
+
+
+.main-part{
+    background-image: url("../images/careers-main.png");
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000px;
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    padding: 5px;
+    filter: brightness(0.98);
+}
+.main-part .for-margin{
+    margin-top: 120px;
+    font-weight: bold;
+}
+.main-part p , .main-part h1{
+    color: white;
+    margin-left: 120px;
+    margin-top: 30px;
+    filter: brightness(5);
+
+}
+.main-part p{
+    width: 600px;
+    font-size: 18px;
+}
+.main-part h1{
+    font-size: 70px;
+    width: 700px;
+}
+.main-part .inner-para{
+    font-size: 25px;
+
+}
+
+
+.careers{
+    background-color: #821df8;
+    height: 1200px;
+    width: 1400px;
+    margin: auto;
+    padding: 5px;
+    position: relative;
+    bottom: 300px;
+}
+.job-oppor h2{
+    text-align: center;
+    padding: 5px;
+    margin-top: 90px;
+    font-size: 44px;
+    color: white;
+    font-weight: lighter;
+
+}
+.job-oppor img{
+    width: 968px;
+    margin-left: 300px;
+    margin-top: 40px;
+}
+.jobs{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1400px;
+    position: relative;
+    bottom: 850px;
+    left: 100px;
+
+}
+
+.job img{
+    width: 64px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.job{
+    background-color: white;
+    border-radius: 40px;
+    height: 500px;
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    margin: 80px;
+
+
+}
+.job .margin-para{
+    margin-bottom: 90px;
+}
+.job a{
+    margin-top: 40px;
+    color: white;
+    text-decoration: none;
+    background-color: #3c143c;
+    width: fit-content;
+    padding: 24px 50px;
+    border-radius: 40px;
+}
+.job2 img , .job3 img{
+    margin-top: 20px;
+    width: 90px;
+}
+
+.job h5{
+    font-size: 20px;
+}
+.job h5 , .job p , .job a{
+    margin-left: 40px;
+}
+.careers a:hover{
+    color:#3c143c ;
+    border: #3c143c 1px solid;
+    background-color: white;
+    transition: 0.3s ease-in;
+}
+
+.cv{
+    margin-top: 300px;
+}
+.cv h2{
+    font-size: 50px;
+    width: 1100px;
+    margin-left: 400px;
+    font-weight: lighter;
+    margin-bottom: 100px;
+
+}
+.cv span{
+    margin-left: 270px;
+}
+.cv a{
+    color: white;
+    text-decoration: none;
+    background-color: #b63eb6;
+    width: fit-content;
+    padding: 24px 50px;
+    border-radius: 40px;
+    margin-left: 800px;
+    margin-top: 100px;
+
+}
+.cv a:hover{
+    background-color: #3b3b87;
+    transition: 0.3s ease-in ;
+}
+
+
+
+
+
+
+
+
+footer{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+footer .container img{
+    width: 30px;
+    margin-right: 20px;
+}
+footer .container {
+    width: 200px;
+
+}
+.line{
+    width: 1820px;
+    height: 1px;
+    background-color: black;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+.para{
+    font-size: 26px;
+    font-weight: lighter;
+    margin-left: 68px;
+    margin-top: 20px;
+}
+.main-menu{
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-around;
+}
+footer h5{
+    color: #13135e;
+    margin-bottom: 20px;
+    font-size: 22px;
+
+}
+.main-menu p{
+    color: #0f3460;
+
+}
+.list{
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+}
+.menu-menu a{
+    text-decoration: none;
+}
+.submit-email{
+    color: white;
+    background-color: #821df8;
+
+}
+.submit-email:hover{
+    background-color: #4a0497;
+    cursor: pointer;
+}
+footer input{
+    padding: 10px;
+    border-radius: 10px;
+}
+footer i {
+    font-size: 25px;
+    padding: 10px;
+}
